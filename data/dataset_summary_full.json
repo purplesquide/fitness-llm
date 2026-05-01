@@ -1,0 +1,7 @@
+{
+  "source_markdown": "Nutrition-and-Physical-Fitness-1660622249._print.md",
+  "generated_dataset": "artifacts/datasets/nutrition_textbook_full_qa.jsonl",
+  "generated_samples": 200,
+  "combined_dataset": "artifacts/datasets/full_llm_training_data.jsonl",
+  "combined_samples": 306
+}

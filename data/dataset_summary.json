@@ -1,0 +1,30 @@
+{
+  "total_samples": 106,
+  "dataset_files": [
+    {
+      "file": "fitness_training_data.jsonl",
+      "samples": 18,
+      "description": "Seed fitness coaching Q&A"
+    },
+    {
+      "file": "nutrition_textbook_data.jsonl",
+      "samples": 88,
+      "description": "Textbook-derived nutrition & bioenergetics Q&A (9 chapters)"
+    }
+  ],
+  "combined_file": "combined_training_data.jsonl",
+  "topic_breakdown": {
+    "training": 13,
+    "general": 34,
+    "protein": 14,
+    "energy_metabolism": 7,
+    "fats": 14,
+    "digestion": 4,
+    "carbohydrates": 9,
+    "cardiovascular": 3,
+    "bioenergetics": 5,
+    "body_composition": 3
+  },
+  "format": "chat (system/user/assistant messages)",
+  "avg_answer_chars": 566
+}

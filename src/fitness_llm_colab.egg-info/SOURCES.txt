@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/fitness_llm/__init__.py
+src/fitness_llm/config.py
+src/fitness_llm/dataset_builder.py
+src/fitness_llm/llm_engine.py
+src/fitness_llm/prompts.py
+src/fitness_llm/rag.py
+src/fitness_llm_colab.egg-info/PKG-INFO
+src/fitness_llm_colab.egg-info/SOURCES.txt
+src/fitness_llm_colab.egg-info/dependency_links.txt
+src/fitness_llm_colab.egg-info/top_level.txt

@@ -1,0 +1,92 @@
+[
+  {
+    "category": "exercise_guidance",
+    "user": "I am intermediate level, hypertrophy goal. How should I do Romanian deadlifts?",
+    "assistant": "Set your hips back, keep a soft knee bend, and keep the bar close to your legs the entire time. Lower until your hamstrings are fully loaded while your back stays neutral, which is usually just below the knee for most lifters. For hypertrophy, use 3 to 4 sets of 8 to 12 reps with a controlled eccentric. If your low back starts rounding, shorten the range instead of forcing depth."
+  },
+  {
+    "category": "exercise_guidance",
+    "user": "What muscles does the overhead press work?",
+    "assistant": "The overhead press mainly trains the front and side delts, with strong help from the triceps and upper chest. Your core and upper back also work hard to stabilize the press. It is one of the best compound lifts for shoulder strength and mass. Keep your ribcage down so the stress stays on the shoulders instead of the low back."
+  },
+  {
+    "category": "exercise_guidance",
+    "user": "I am a beginner. Is bench press safe to do alone?",
+    "assistant": "If you are training alone as a beginner, dumbbell bench press or a Smith machine is usually safer than a free barbell. If you use a barbell, set the safeties correctly and stay well below true failure. Your first priority is learning control and bar path, not testing limits. That is enough to build strength at your stage."
+  },
+  {
+    "category": "exercise_substitution",
+    "user": "I train at home with only dumbbells. What replaces barbell squats?",
+    "assistant": "Use goblet squats and Bulgarian split squats as your main replacements. Goblet squats give you a clean squat pattern and are easy to progress with tempo and reps. Bulgarian split squats can become brutally effective once you load them hard enough. Start with 3 to 4 sets of 8 to 12 reps per exercise."
+  },
+  {
+    "category": "exercise_substitution",
+    "user": "I have a shoulder injury. What replaces overhead press?",
+    "assistant": "Remove painful overhead pressing until it is pain free again. A landmine press is usually the best replacement because the angle is more shoulder friendly while still training the delts and triceps. Light lateral raises can help maintain shoulder stimulus without heavy compression. If the pain is sharp or persists, stop loading it and get it evaluated."
+  },
+  {
+    "category": "exercise_substitution",
+    "user": "No pull-up bar at home. What replaces pull-ups?",
+    "assistant": "Use one-arm dumbbell rows as your main lat movement and load them hard. Chest-supported dumbbell rows are also excellent if you have an adjustable bench. If you want a bodyweight option, inverted rows under a stable table work surprisingly well. Aim for 3 to 4 hard sets of 10 to 15 reps."
+  },
+  {
+    "category": "program_advice",
+    "user": "I am intermediate, 4 days per week, hypertrophy goal. What split should I use?",
+    "assistant": "A 4-day upper lower split is usually the best fit for that profile because it gives each muscle group roughly twice-weekly exposure. That is a strong balance of volume, frequency, and recovery for hypertrophy. Use one upper day with more horizontal pressing and rowing, and the other with more vertical work and arms. Keep each session focused instead of cramming everything into one workout."
+  },
+  {
+    "category": "program_advice",
+    "user": "My bench press has not gone up in 3 weeks. What should I do?",
+    "assistant": "A 3-week plateau is common at intermediate level and usually does not mean the program is broken. First check sleep, calories, and protein because recovery problems cause many stalls. If recovery is solid, take a deload week by cutting volume around 50 percent while keeping technique sharp. If the stall remains, run a short block in a different rep range before returning to your previous setup."
+  },
+  {
+    "category": "program_advice",
+    "user": "How many sets per muscle group per week should I do?",
+    "assistant": "For hypertrophy, most intermediate lifters do well with around 10 to 20 quality sets per muscle group per week. Start near the lower end if recovery is inconsistent, then add volume only when progress slows. Bigger muscle groups like back and quads often tolerate the higher end better than smaller muscles. The best target is the most volume you can recover from while still progressing."
+  },
+  {
+    "category": "nutrition",
+    "user": "How much protein should I eat to build muscle?",
+    "assistant": "A strong target is 1.6 to 2.2 grams of protein per kilogram of bodyweight per day. Split that across 3 to 5 meals so each meal gives you a clear anabolic signal. For most lifters, consistency matters more than perfect timing. Hit the total daily amount first, then worry about meal distribution."
+  },
+  {
+    "category": "nutrition",
+    "user": "Should I bulk aggressively to gain muscle faster?",
+    "assistant": "No. A small surplus is usually better because muscle gain is slow and large surpluses mostly create extra fat gain. Aim for roughly 200 to 400 calories above maintenance and track weekly bodyweight changes. If weight is rising too fast, reduce calories before the bulk gets sloppy."
+  },
+  {
+    "category": "progression",
+    "user": "When should I increase the weight on my lifts?",
+    "assistant": "Increase the load when you consistently hit the top of your target rep range with solid form and still have a small buffer left. For example, if your goal is 8 to 10 reps and you hit all prescribed sets at 10 reps with around 1 to 2 reps in reserve, add weight next session. Progression should come from performance, not guesswork. Small jumps are usually better than aggressive jumps."
+  },
+  {
+    "category": "progression",
+    "user": "What is a deload week and when do I need one?",
+    "assistant": "A deload is a short period where you reduce training stress so fatigue can drop while technique stays sharp. The easiest version is keeping the same exercises and reducing volume by around 40 to 60 percent for one week. You usually need one when performance is dropping across multiple sessions, joints feel beat up, and motivation is crashing. It is a recovery tool, not a step backward."
+  },
+  {
+    "category": "injury_recovery",
+    "user": "My knees hurt during squats. What should I change?",
+    "assistant": "First reduce load and check whether the pain is technique-related or simply a tolerance issue. Try a controlled tempo, a slightly narrower or wider stance, and a depth that stays pain free while you rebuild confidence. Split squats, leg press, or box squats can be useful temporary substitutes. If pain is sharp, worsening, or affecting daily movement, stop forcing heavy squats."
+  },
+  {
+    "category": "injury_recovery",
+    "user": "Can I train through lower back tightness after deadlifts?",
+    "assistant": "Mild muscular soreness is common, but sharp pain or movement restriction is not something to push through. Reduce the load, shorten the range if needed, and make sure the brace and hip hinge stay consistent. Swap to a friendlier hinge like Romanian deadlifts or machine posterior chain work if conventional pulls keep flaring it up. If symptoms radiate or persist, stop loading it and get assessed."
+  },
+  {
+    "category": "motivation",
+    "user": "I keep missing workouts. How do I stay consistent?",
+    "assistant": "Lower the barrier to entry first. A plan you can complete consistently beats an ideal plan you keep skipping. Set a fixed training schedule, make the first 10 minutes automatic, and track completed sessions instead of chasing perfect weeks. Consistency comes from repeatable structure, not motivation spikes."
+  },
+  {
+    "category": "app_specific",
+    "user": "What does RPE 8 mean in my workout plan?",
+    "assistant": "RPE 8 means the set should feel hard but controlled, with about 2 good reps left before failure. It is a way to match effort to your real fatigue on the day instead of forcing the same absolute load every session. If you finish a set and clearly had 4 or 5 reps left, the load was too light. If you barely survived the rep, it was too heavy for the target."
+  },
+  {
+    "category": "app_specific",
+    "user": "My plan says 3 sets of 10 to 12. How do I progress that?",
+    "assistant": "Use the rep range as your progression window. Start with a weight you can control for 3 sets near the low end of the range, then add reps over time until you can hit 12 on all sets with solid technique. Once you own the top of the range, increase the load slightly and repeat the process. That is a simple double-progression model."
+  }
+]
