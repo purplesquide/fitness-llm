@@ -1,0 +1,2 @@
+{"conversations":[{"from":"user","value":"What is the recommended workout plan for a user with age 25?"},{"from":"assistant","value":"The recommended workout plan for a user with age 25 is HIIT, Strength Training, Endurance."}],"source":"Human","category":"Q&A"}
+{"conversations":[{"from":"user","value":"Why is the user recommended HIIT, Strength Training, and Endurance?"},{"from":"assistant","value":"Because the user is 25 years old, which falls within the 18-35 age range."}],"source":"Human","category":"Explain"}
