@@ -1,0 +1,13 @@
+{
+  "domain_items": 4577,
+  "user_profiles": 54,
+  "instruction_items": 2936,
+  "finetune_samples": 2936,
+  "outputs": {
+    "domain_dictionary": "C:\\Users\\ADMIN\\Documents\\GitHub\\fitness-llm\\artifacts\\dictionaries\\domain_dictionary.jsonl",
+    "user_schema": "C:\\Users\\ADMIN\\Documents\\GitHub\\fitness-llm\\artifacts\\dictionaries\\user_dictionary_schema.json",
+    "user_profiles": "C:\\Users\\ADMIN\\Documents\\GitHub\\fitness-llm\\artifacts\\dictionaries\\user_dictionary_profiles.jsonl",
+    "instruction_dictionary": "C:\\Users\\ADMIN\\Documents\\GitHub\\fitness-llm\\artifacts\\dictionaries\\instruction_dictionary.jsonl",
+    "finetune_dataset": "C:\\Users\\ADMIN\\Documents\\GitHub\\fitness-llm\\artifacts\\datasets\\fitness_training_data_dictionary_full.jsonl"
+  }
+}

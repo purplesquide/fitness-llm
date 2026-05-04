@@ -3,6 +3,7 @@ pyproject.toml
 src/fitness_llm/__init__.py
 src/fitness_llm/config.py
 src/fitness_llm/dataset_builder.py
+src/fitness_llm/dictionary_builder.py
 src/fitness_llm/llm_engine.py
 src/fitness_llm/prompts.py
 src/fitness_llm/rag.py

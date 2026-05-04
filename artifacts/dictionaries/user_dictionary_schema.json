@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FitnessLLMUserDictionary",
+  "type": "object",
+  "required": [
+    "user_id",
+    "profile",
+    "program",
+    "state"
+  ],
+  "properties": {
+    "user_id": {
+      "type": "string"
+    },
+    "profile": {
+      "type": "object",
+      "required": [
+        "level",
+        "goal",
+        "constraints",
+        "preferences"
+      ],
+      "properties": {
+        "level": {
+          "type": "string",
+          "enum": [
+            "beginner",
+            "intermediate",
+            "advanced"
+          ]
+        },
+        "training_age_years": {
+          "type": "number"
+        },
+        "goal": {
+          "type": "string"
+        },
+        "primary_focus": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "constraints": {
+          "type": "object",
+          "properties": {
+            "injuries": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "equipment": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "schedule": {
+              "type": "string"
+            }
+          }
+        },
+        "preferences": {
+          "type": "object",
+          "properties": {
+            "disliked_exercises": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "preferred_rep_ranges": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "program": {
+      "type": "object",
+      "properties": {
+        "split": {
+          "type": "string"
+        },
+        "days_per_week": {
+          "type": "integer"
+        },
+        "volume_summary": {
+          "type": "object"
+        },
+        "microcycle": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      }
+    },
+    "state": {
+      "type": "object",
+      "properties": {
+        "perceived_fatigue": {
+          "type": "string"
+        },
+        "adherence_last_7_days": {
+          "type": "number"
+        },
+        "recent_issues": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
