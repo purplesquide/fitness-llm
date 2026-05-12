@@ -1,0 +1,16 @@
+{
+  "total_samples": 9669,
+  "clean_samples": 9669,
+  "breakdown": {
+    "exercise_guidance": 3671,
+    "substitutions": 2850,
+    "programming_qa": 194,
+    "nutrition_qa": 165,
+    "science_qa": 13,
+    "safety_qa": 12,
+    "cardio_guidance": 9,
+    "flexibility_guidance": 46,
+    "workout_plan_qa": 5,
+    "existing_datasets": 2777
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "total_exercises": 5212,
+  "domain_items": 3784,
+  "workout_plan_templates": 5,
+  "ultimate_gym_bodypart_templates": 7,
+  "sources": {
+    "exercisedb_json": 30,
+    "fitness_exercises_csv": 1324,
+    "megagym_csv": 2918,
+    "wger_json": 872,
+    "longhaul_fitness": 404
+  },
+  "files": {
+    "master_exercise_dictionary": "C:\\Users\\ADMIN\\Documents\\GitHub\\fitness-llm\\artifacts\\dictionaries\\master_exercise_dictionary.jsonl",
+    "master_domain_dictionary": "C:\\Users\\ADMIN\\Documents\\GitHub\\fitness-llm\\artifacts\\dictionaries\\master_domain_dictionary.jsonl",
+    "master_workout_plans": "C:\\Users\\ADMIN\\Documents\\GitHub\\fitness-llm\\artifacts\\dictionaries\\master_workout_plans.jsonl",
+    "master_user_schema": "C:\\Users\\ADMIN\\Documents\\GitHub\\fitness-llm\\artifacts\\dictionaries\\master_user_schema.json",
+    "ultimate_gym_templates": "C:\\Users\\ADMIN\\Documents\\GitHub\\fitness-llm\\artifacts\\dictionaries\\ultimate_gym_templates.jsonl"
+  }
+}

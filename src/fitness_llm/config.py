@@ -45,5 +45,11 @@ class Settings:
     groq_model: str = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
     hf_token: str | None = os.getenv("HF_TOKEN")
     groq_api_key: str | None = os.getenv("GROQ_API_KEY")
-    embedding_model: str = "sentence-transformers/all-MiniLM-L6-v2"
-    retrieval_threshold: float = 0.30
+    # FAISS RAG embedding (lightweight fallback)
+    embedding_model: str = os.getenv("EMBEDDING_MODEL", "sentence-transformers/all-MiniLM-L6-v2")
+    # BGE embedding for ChromaDB RAG (higher quality, recommended by guide)
+    bge_embedding_model: str = os.getenv("BGE_EMBEDDING_MODEL", "BAAI/bge-large-en-v1.5")
+    retrieval_threshold: float = float(os.getenv("RETRIEVAL_THRESHOLD", "0.25"))
+    chroma_persist_dir: str | None = os.getenv("CHROMA_PERSIST_DIR")
+    max_new_tokens: int = int(os.getenv("MAX_NEW_TOKENS", "400"))
+    temperature: float = float(os.getenv("TEMPERATURE", "0.7"))

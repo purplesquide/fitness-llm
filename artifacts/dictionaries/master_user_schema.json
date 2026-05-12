@@ -1,0 +1,261 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FitnessLLM_MasterUserSchema",
+  "version": "2.0",
+  "type": "object",
+  "required": [
+    "user_id",
+    "profile",
+    "program",
+    "state"
+  ],
+  "properties": {
+    "user_id": {
+      "type": "string",
+      "description": "Unique user identifier"
+    },
+    "profile": {
+      "type": "object",
+      "required": [
+        "level",
+        "goal",
+        "constraints",
+        "preferences"
+      ],
+      "properties": {
+        "level": {
+          "type": "string",
+          "enum": [
+            "beginner",
+            "intermediate",
+            "advanced"
+          ]
+        },
+        "training_age_years": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 50
+        },
+        "goal": {
+          "type": "string",
+          "enum": [
+            "muscle_gain",
+            "weight_loss",
+            "strength",
+            "endurance",
+            "general_fitness",
+            "recomposition",
+            "sport_performance"
+          ]
+        },
+        "primary_focus": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "demographics": {
+          "type": "object",
+          "properties": {
+            "age": {
+              "type": "integer",
+              "minimum": 13,
+              "maximum": 100
+            },
+            "sex": {
+              "type": "string",
+              "enum": [
+                "male",
+                "female",
+                "other",
+                "prefer_not_to_say"
+              ]
+            },
+            "height_cm": {
+              "type": "number"
+            },
+            "weight_kg": {
+              "type": "number"
+            },
+            "bmi": {
+              "type": "number"
+            }
+          }
+        },
+        "constraints": {
+          "type": "object",
+          "properties": {
+            "injuries": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "User-reported injuries or limitations"
+            },
+            "medical_conditions": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "equipment": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "schedule": {
+              "type": "string",
+              "description": "e.g. '4 days/week, weekdays only'"
+            },
+            "time_per_session_min": {
+              "type": "integer"
+            }
+          }
+        },
+        "preferences": {
+          "type": "object",
+          "properties": {
+            "disliked_exercises": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "liked_exercises": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "preferred_training_style": {
+              "type": "string",
+              "enum": [
+                "powerlifting",
+                "bodybuilding",
+                "functional",
+                "calisthenics",
+                "circuit",
+                "any"
+              ]
+            },
+            "preferred_rep_ranges": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "diet_type": {
+              "type": "string",
+              "enum": [
+                "standard",
+                "vegetarian",
+                "vegan",
+                "keto",
+                "paleo",
+                "mediterranean",
+                "other"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "program": {
+      "type": "object",
+      "properties": {
+        "split": {
+          "type": "string"
+        },
+        "days_per_week": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 7
+        },
+        "current_plan_id": {
+          "type": "string"
+        },
+        "volume_summary": {
+          "type": "object",
+          "description": "sets per muscle group per week"
+        },
+        "microcycle": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "program_start_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "current_week": {
+          "type": "integer"
+        }
+      }
+    },
+    "state": {
+      "type": "object",
+      "properties": {
+        "last_workout_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "total_sessions_logged": {
+          "type": "integer"
+        },
+        "streak_days": {
+          "type": "integer"
+        },
+        "recent_workouts": {
+          "type": "array",
+          "maxItems": 10,
+          "items": {
+            "type": "object",
+            "properties": {
+              "date": {
+                "type": "string"
+              },
+              "session_name": {
+                "type": "string"
+              },
+              "exercises": {
+                "type": "array"
+              },
+              "duration_min": {
+                "type": "integer"
+              },
+              "rpe": {
+                "type": "number"
+              }
+            }
+          }
+        },
+        "adherence_rate_percent": {
+          "type": "number"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "context": {
+      "type": "object",
+      "description": "Short-term conversation context",
+      "properties": {
+        "session_id": {
+          "type": "string"
+        },
+        "last_message": {
+          "type": "string"
+        },
+        "last_intent": {
+          "type": "string"
+        },
+        "current_topic": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
